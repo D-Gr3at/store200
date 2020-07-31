@@ -1,0 +1,1 @@
+{"church_id":"TLC-012006","bank_code":"044","account_no":"0045512298","account_name":"MALU JOSEPH UGO","percentage":"60.00","percentage_value":57300}

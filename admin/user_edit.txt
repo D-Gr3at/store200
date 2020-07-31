@@ -1,0 +1,1 @@
+UPDATE coupon SET name='my coupon',value='35.00',is_active='0',expire_date='2020-07-31',customer_link='billeibinabo@gmail.com',created='2020-07-14 02:52:46',merchant_id='VUV-071401440520' WHERE  id='OZ1X2VXCA5' 

@@ -1,0 +1,1 @@
+insert into brand (name,created,merchant_id,posted_user) VALUES ('Samsung','2020-07-14 03:14:36','VUV-071403041520','info@store200.com')

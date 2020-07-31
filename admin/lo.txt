@@ -1,0 +1,1 @@
+SELECT SUM(transaction_amount) AS amount, MONTH(created) AS trans_month,YEAR(created) AS trans_year  FROM transaction_table WHERE 1 = 1 AND YEAR(created) = YEAR(CURDATE()) - 1  GROUP BY MONTH(created),YEAR(created) ORDER BY trans_year 

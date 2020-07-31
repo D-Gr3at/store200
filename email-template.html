@@ -1,0 +1,68 @@
+<div class="col-sm-12 col-md-12">
+  <div class="form-group">
+      <label class="control-label">Street</label>
+      <input name="street" id="street" placeholder="Street" value="<?php echo $row["street"] ?>" class="form-control" type="text" required>
+  </div>
+</div>
+<div class="col-sm-6 col-md-6">
+  <div class="form-group">
+      <label class="control-label">State</label>
+      <select name="state" id="state" class="form-control" required>
+          <option value="">::SELECT STATE::</option>
+          <?php
+          foreach ($states as $key => $value) {
+              if($value["State"] == $row["state"]){
+                  echo "<option value='" . $value["state_code"] . "' selected>" . $value["State"] . "</option>";
+              }else{
+                  echo "<option value='" . $value["state_code"] . "'>" . $value["State"] . "</option>";
+              }
+          }
+          ?>
+      </select>
+  </div>
+</div>
+<div class="col-sm-6 col-md-6">
+  <div class="form-group">
+      <label class="control-label">LGA</label>
+      <input name="id" id="customer_id" value="<?php echo $customer_id; ?>" type="hidden">
+      <select name="lga" id="lga" class="form-control" required>
+          <option value="">::NO LGA TO SELECT::</option>
+          <?php
+              $query = "SELECT Lga FROM lga WHERE State = '".$row["state"]."'";
+              $result = mysqli_query($conn, $query);
+              $lgas = mysqli_fetch_all($result,MYSQLI_ASSOC);
+              foreach($lgas as $key => $value){
+                  if($value["Lga"] == $row["lga"]){
+                      echo "<option value='" . $value["Lga"] . "' selected>" . $row["lga"]. "</option>";
+                  }else{
+                      echo "<option value='" . $value["Lga"] . "'>" . $value["Lga"]. "</option>";
+                  }
+              }
+          ?>
+      </select>
+  </div>
+</div>
+<div class="col-sm-8 col-md-8">
+  <div class="form-group">
+      <label class="control-label">Country</label>
+      <input name="country" id="country" placeholder="Country" value="<?php echo $row["country"] ?>" class="form-control" type="text" readonly>
+  </div>
+</div>
+<div class="col-sm-4 col-md-4">
+  <div class="form-group">
+      <label class="control-label">Postal Code</label>
+      <input name="postcode" id="postcode" placeholder="Postal code" value="<?php echo $row["post_code"] ?>" class="form-control" type="text">
+  </div>
+</div>
+<div id="addr_container"></div>
+<div class="col-sm-10 col-md-10"></div>
+<div class="col-sm-2 col-md-2">
+  <div class="form-group">
+      <button id="more_addr" class="btn btn-lg btn-md btn-sm btn-store outline smooth-scroll pull-right">Add Address</button>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12" style="margin-top: 15%;">
+  <div class="form-group">
+      <input name="submit" value="Save" id="save_addr" class="btn btn-lg btn-md btn-sm btn-store outline smooth-scroll" type="submit">
+  </div>
+</div>

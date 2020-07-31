@@ -1,0 +1,85 @@
+[
+    {
+        "name": "adhocore/jwt",
+        "version": "0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/adhocore/php-jwt.git",
+            "reference": "c5f481beb0b188ef62cbf983809a73b9bdeb7120"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/adhocore/php-jwt/zipball/c5f481beb0b188ef62cbf983809a73b9bdeb7120",
+            "reference": "c5f481beb0b188ef62cbf983809a73b9bdeb7120",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5"
+        },
+        "time": "2019-12-13T11:49:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ahc\\Jwt\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jitendra Adhikari",
+                "email": "jiten.adhikary@gmail.com"
+            }
+        ],
+        "description": "Ultra lightweight JSON web token (JWT) library for PHP5.5+.",
+        "keywords": [
+            "auth",
+            "json-web-token",
+            "jwt",
+            "jwt-php",
+            "token"
+        ]
+    },
+    {
+        "name": "midnite81/xml2array",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/midnite81/xml2array.git",
+            "reference": "d55e3857badc50d8a995fdcb06eb2eab43d65539"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/midnite81/xml2array/zipball/d55e3857badc50d8a995fdcb06eb2eab43d65539",
+            "reference": "d55e3857badc50d8a995fdcb06eb2eab43d65539",
+            "shasum": ""
+        },
+        "time": "2018-07-09T18:27:57+00:00",
+        "type": "package",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Midnite81\\Xml2Array\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Unlicense"
+        ],
+        "authors": [
+            {
+                "name": "Simon Rogers",
+                "email": "webdev@centralblue.co.uk"
+            }
+        ],
+        "description": "A package to convert XML to an Array with the inbuilt ability to convert to Json, Laravel Collection and Serialize"
+    }
+]

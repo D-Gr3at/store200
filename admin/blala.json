@@ -1,0 +1,167 @@
+{
+    "OriginDestinationOptions": {
+        "OriginDestinationOption": [{
+            "@RefNumber": "0",
+            "@DirectionId": "0",
+            "@ElapsedTime": "0525",
+            "FlightSegment": [{
+                "@DepartureDateTime": "2020-05-29T11:15:00",
+                "@ArrivalDateTime": "2020-05-29T14:40:00",
+                "@FlightNumber": "302",
+                "@ResBookDesigCode": "A",
+                "@Status": "OK",
+                "FlightDuration": "2020-05-26T02:25:00",
+                "DepartureAirport": {
+                    "@LocationCode": "FRA",
+                    "@Terminal": "2"
+                },
+                "ArrivalAirport": {
+                    "@LocationCode": "OTP"
+                },
+                "OperatingAirline": {
+                    "@Code": "RO"
+                },
+                "Equipment": {
+                    "@AirEquipType": "733"
+                },
+                "MarketingAirline": {
+                    "@Code": "RO"
+                },
+                "BookingClassAvails": {
+                    "BookingClassAvail": {
+                        "@ResBookDesigCode": "A",
+                        "@ResBookDesigQuantity": "9",
+                        "@RPH": "ADT",
+                        "@AvailablePTC": "ADT",
+                        "@ResBookDesigCabinCode": "M",
+                        "@FareBasis": "ARTOPT",
+                        "@FareType": "RP"
+                    }
+                }
+            }, {
+                "@DepartureDateTime": "2020-05-29T16:25:00",
+                "@ArrivalDateTime": "2020-05-29T17:40:00",
+                "@FlightNumber": "263",
+                "@ResBookDesigCode": "A",
+                "@Status": "OK",
+                "FlightDuration": "2020-05-26T01:15:00",
+                "DepartureAirport": {
+                    "@LocationCode": "OTP",
+                    "@Terminal": ""
+                },
+                "ArrivalAirport": {
+                    "@LocationCode": "IST"
+                },
+                "OperatingAirline": {
+                    "@Code": "RO"
+                },
+                "Equipment": {
+                    "@AirEquipType": "318"
+                },
+                "MarketingAirline": {
+                    "@Code": "RO"
+                },
+                "BookingClassAvails": {
+                    "BookingClassAvail": {
+                        "@ResBookDesigCode": "A",
+                        "@ResBookDesigQuantity": "9",
+                        "@RPH": "ADT",
+                        "@AvailablePTC": "ADT",
+                        "@ResBookDesigCabinCode": "M",
+                        "@FareBasis": "ARTOPT",
+                        "@FareType": "RP"
+                    }
+                }
+            }]
+        }, {
+            "@RefNumber": "0",
+            "@DirectionId": "1",
+            "@ElapsedTime": "0900",
+            "FlightSegment": [{
+                "@DepartureDateTime": "2020-06-04T10:40:00",
+                "@ArrivalDateTime": "2020-06-04T11:55:00",
+                "@FlightNumber": "262",
+                "@ResBookDesigCode": "A",
+                "@Status": "OK",
+                "FlightDuration": "2020-05-26T01:15:00",
+                "DepartureAirport": {
+                    "@LocationCode": "IST",
+                    "@Terminal": ""
+                },
+                "ArrivalAirport": {
+                    "@LocationCode": "OTP"
+                },
+                "OperatingAirline": {
+                    "@Code": "RO"
+                },
+                "Equipment": {
+                    "@AirEquipType": "318"
+                },
+                "MarketingAirline": {
+                    "@Code": "RO"
+                },
+                "BookingClassAvails": {
+                    "BookingClassAvail": {
+                        "@ResBookDesigCode": "A",
+                        "@ResBookDesigQuantity": "9",
+                        "@RPH": "ADT",
+                        "@AvailablePTC": "ADT",
+                        "@ResBookDesigCabinCode": "M",
+                        "@FareBasis": "ARTOPT",
+                        "@FareType": "RP"
+                    }
+                }
+            }, {
+                "@DepartureDateTime": "2020-06-04T17:00:00",
+                "@ArrivalDateTime": "2020-06-04T18:40:00",
+                "@FlightNumber": "305",
+                "@ResBookDesigCode": "A",
+                "@Status": "OK",
+                "FlightDuration": "2020-05-26T02:40:00",
+                "DepartureAirport": {
+                    "@LocationCode": "OTP",
+                    "@Terminal": ""
+                },
+                "ArrivalAirport": {
+                    "@LocationCode": "FRA",
+                    "@Terminal": "2"
+                },
+                "OperatingAirline": {
+                    "@Code": "RO"
+                },
+                "Equipment": {
+                    "@AirEquipType": "733"
+                },
+                "MarketingAirline": {
+                    "@Code": "RO"
+                },
+                "BookingClassAvails": {
+                    "BookingClassAvail": {
+                        "@ResBookDesigCode": "A",
+                        "@ResBookDesigQuantity": "9",
+                        "@RPH": "ADT",
+                        "@AvailablePTC": "ADT",
+                        "@ResBookDesigCabinCode": "M",
+                        "@FareBasis": "ARTOPT",
+                        "@FareType": "RP"
+                    }
+                }
+            }]
+        }]
+    }
+}
+
+{"@RefNumber":"0","@DirectionId":"0","@ElapsedTime":"0525","FlightSegment":[{"@DepartureDateTime":"2020-05-29T11:15:00","@ArrivalDateTime":"2020-05-29T14:40:00","@FlightNumber":"302","@ResBookDesigCode":"A","@Status":"OK","FlightDuration":"2020-05-26T02:25:00","DepartureAirport":{"@LocationCode":"FRA","@Terminal":"2"},"ArrivalAirport":{"@LocationCode":"OTP"},"OperatingAirline":{"@Code":"RO"},"Equipment":{"@AirEquipType":"733"},"MarketingAirline":{"@Code":"RO"},"BookingClassAvails":{"BookingClassAvail":{"@ResBookDesigCode":"A","@ResBookDesigQuantity":"9","@RPH":"ADT","@AvailablePTC":"ADT","@ResBookDesigCabinCode":"M","@FareBasis":"ARTOPT","@FareType":"RP"}}},{"@DepartureDateTime":"2020-05-29T16:25:00","@ArrivalDateTime":"2020-05-29T17:40:00","@FlightNumber":"263","@ResBookDesigCode":"A","@Status":"OK","FlightDuration":"2020-05-26T01:15:00","DepartureAirport":{"@LocationCode":"OTP","@Terminal":""},"ArrivalAirport":{"@LocationCode":"IST"},"OperatingAirline":{"@Code":"RO"},"Equipment":{"@AirEquipType":"318"},"MarketingAirline":{"@Code":"RO"},"BookingClassAvails":{"BookingClassAvail":{"@ResBookDesigCode":"A","@ResBookDesigQuantity":"9","@RPH":"ADT","@AvailablePTC":"ADT","@ResBookDesigCabinCode":"M","@FareBasis":"ARTOPT","@FareType":"RP"}}}]}
+
+
+
+2020-05-29T16:25:00 - 
+2020-05-29T17:40:00 - 
+263 - 
+A -
+OTP -
+- 
+IST -
+RO - 
+318 - 
+2020-05-26T01:15:00

@@ -1,0 +1,1 @@
+SELECT * FROM product_images WHERE product_id = '20200714032021' AND merchant_id = 'VUV-071403041520'

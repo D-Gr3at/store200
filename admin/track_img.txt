@@ -1,0 +1,1 @@
+{"response_code":"0","response_mesage":"success","data":".\/uploads\/FOSHI-052808531420\/logo\/FOSHI-052808531420.png"}

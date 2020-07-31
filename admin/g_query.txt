@@ -1,0 +1,1 @@
+SELECT id,orderid,product_id,original_price,quantity,total,order_status,shipping_status,customerid,id,createdon FROM orderdetails WHERE  1 = 1  AND merchant_id='VUV-071403041520' order by id asc  LIMIT 0, 10

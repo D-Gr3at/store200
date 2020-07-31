@@ -1,0 +1,108 @@
+.navbar {
+    background-color: white !important;
+    /* border-bottom: .5px solid gray !important; */
+    box-shadow: 0 8px 6px -6px gray;
+}
+
+.nav li a{
+    color: black !important;
+    font-weight: bold;
+}
+
+.navbar-header>a{
+    margin-bottom: 15px !important;
+    padding: 0 0 !important;
+}
+
+.hero-unit h2 p{
+   font-family:  'Source Sans Pro', sans-serif !important;
+}
+
+h2{
+    font-size: 5rem !important;
+}
+
+header h2{
+    font-family:  'Source Sans Pro', sans-serif !important;
+}
+
+/* .payment-group{
+    display: none;
+} */
+
+.checkout-button{
+    background-color: #23A657 !important;
+    outline: none;
+    border: 1px solid green;
+    color: white !important;
+    border-radius: 3px;
+}
+
+.mt-5 .cta-button{
+    background-color: #23A657 !important;
+    outline: none;
+    border: 1px solid green;
+    color: white;
+    border-radius: 3px;
+    margin-top: 2rem;
+    float: right;
+    height:30px;
+    width:100px;
+}
+.img-box img{
+    width: 212.5px;
+    height: 141.575px;
+    margin-left: 22px;
+}
+
+.checkout-button:hover{
+    background-color: #fff !important;
+    color: #23A657 !important;
+}
+
+.cta span{
+    font-size: 5rem;
+}
+
+.icon-arrow-left{
+    display: none;
+}
+
+#product-image{
+    max-width: 30% !important;
+}
+
+.btn-default a:hover{
+    text-decoration: none;
+}
+
+#product-price{
+    font-size: 3rem;
+}
+
+.modal-title{
+    display: block;
+    font-size: 4rem;
+}
+
+/* #navlogo{
+    padding-bottom: 1px;
+} */
+
+.badge-infos{
+    display: inline-block;
+    margin-bottom: 12px;
+    min-width: 6px;
+    padding: 3px 5px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: green;
+    border-radius: 10px;
+}
+
+
